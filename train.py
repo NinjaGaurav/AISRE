@@ -81,6 +81,12 @@ for image in imagelist:
     height, width = upscaledLR.shape
     operationcount = 0
     totaloperations = (height-2*margin) * (width-2*margin)
+    
+    
+    grayorigin = Dog1(grayorigin)
+    
+    
+    
     for row in range(margin, height-margin):
         for col in range(margin, width-margin):
             if round(operationcount*100/totaloperations) != round((operationcount+1)*100/totaloperations):
