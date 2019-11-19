@@ -1,0 +1,11 @@
+#
+# To install the dependencies run in your shell the following command:
+# pip install -U -r req.txt
+#
+numpy
+numba==0.42
+opencv-python
+scipy==1.1.0
+scikit-learn
+scikit-image
+Pillow
