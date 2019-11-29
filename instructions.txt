@@ -1,0 +1,4 @@
+1. Choose the image you want to upscale.
+2. Click on test to run the command.This may take some time.
+3. Click on show result to view the output image.
+4. Optional - Click RTX-On to enhance the image.This may take some time.
